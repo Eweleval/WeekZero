@@ -13,8 +13,8 @@ Examples
  */
 
 func calcAge(age: Int) -> Int {
-    let year = 365;
-    let ageToDay = age * year;
+    let yearsToDay = 365;
+    let ageToDay = age * yearsToDay;
     return ageToDay;
 }
 calcAge(age: 65);
