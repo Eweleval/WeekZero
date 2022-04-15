@@ -12,9 +12,15 @@ Examples
  calcAge(20) ➞ 7300
  */
 
+<<<<<<< HEAD
+func calcAge(age: Int) -> Int {
+    let yearsToDay = 365;
+    let ageToDay = age * yearsToDay;
+=======
 func calcAge(_ age: Int) -> Int {
     let year = 365;
     let ageToDay = age * year;
+>>>>>>> main
     return ageToDay;
 }
 calcAge(65);
