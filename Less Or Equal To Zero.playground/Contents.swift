@@ -11,3 +11,4 @@ func lessThanOrEqualToZero(_ number: Int) -> Bool{
 lessThanOrEqualToZero(5);
 lessThanOrEqualToZero(0);
 lessThanOrEqualToZero(-2);
+lessThanOrEqualToZero(7)
